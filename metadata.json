@@ -1,6 +1,6 @@
 {
   "name": "SMART AI MAP🪩",
-  "description": "A futuristic 360° world exploration interface powered by Random Access Intelligent #RAM Environmental sensors etc and Smart AI Bot Body Lock technology.",
+  "description": "A futuristic 360° world exploration interface powered by Random Access Intelligent #RAM Environmental sensors etc and SmartAIBotBodyLock technology.",
   "requestFramePermissions": [
     "geolocation",
     "camera",
