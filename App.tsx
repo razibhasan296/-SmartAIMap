@@ -99,7 +99,7 @@ const App: React.FC = () => {
     const logs = [
       "INITIALIZING RAI CODEC v4.0.0...",
       "FETCHING #SMARTAIMAP KERNEL...",
-      "UPLINKING #SMARTAIBOTBODYLOCK PROTOCOLS...",
+      "UPLINKING #SmartAIBotBodyLock PROTOCOLS...",
       "CALIBRATING #ENVIRONMENT SENSORS...",
       "DECRYPTING WORLD MAPS GEODATA...",
       "RAI HANDSHAKE ESTABLISHED.",
@@ -417,7 +417,7 @@ const App: React.FC = () => {
               {loading ? 'SYNCHRONIZING RAI CORE' : 'RECALIBRATING LENS ARRAY'}
             </div>
             <div className="text-xs font-mono text-slate-400 uppercase tracking-widest opacity-80 flex gap-4">
-              <span>#SMARTAIMAP</span> <span>#RAI</span> <span>#SMARTAIBOTBODYLOCK</span> <span>#ENVIRONMENT</span>
+              <span>#SMARTAIMAP</span> <span>#RAI</span> <span>#SmartAIBotBodyLock</span> <span>#ENVIRONMENT</span>
             </div>
           </div>
         </div>
@@ -574,7 +574,7 @@ const App: React.FC = () => {
             <div className="absolute top-10 left-1/2 -translate-x-1/2 z-30 pointer-events-none flex flex-col items-center gap-2">
               <div className="px-6 py-2 bg-white/10 border-2 border-white/50 backdrop-blur-3xl rounded-xl shadow-[0_0_30px_rgba(255,255,255,0.2)]">
                 <span className="text-[14px] font-orbitron font-bold text-white tracking-[0.4em] uppercase block text-center chromatic-aberration">
-                  #SMARTAIMAP #RAI #SMARTAIBOTBODYLOCK #ENVIRONMENT
+                  #SMARTAIMAP #RAI #SmartAIBotBodyLock #ENVIRONMENT
                 </span>
               </div>
               <div className="text-[9px] font-mono text-cyan-400/60 uppercase tracking-widest animate-pulse font-bold">
@@ -722,7 +722,7 @@ const App: React.FC = () => {
         </div>
         <div className="flex-1 overflow-hidden whitespace-nowrap uppercase tracking-widest opacity-60">
           <span className="inline-block animate-[marquee_25s_linear_infinite] hover:[animation-play-state:paused] cursor-default">
-            // [LINK_STABLE] // INITIALIZING #RAI #SMARTAIBOTBODYLOCK #ENVIRONMENT PROTOCOLS // {quotaExceeded ? 'WARNING: RESOURCE QUOTA EXHAUSTED' : 'UPLINK ACTIVE'} // LATITUDE: {locationInfo?.coordinates.lat.toFixed(2) || '0.00'} // LONGITUDE: {locationInfo?.coordinates.lng.toFixed(2) || '0.00'} //
+            // [LINK_STABLE] // INITIALIZING #RAI #SmartAIBotBodyLock #ENVIRONMENT PROTOCOLS // {quotaExceeded ? 'WARNING: RESOURCE QUOTA EXHAUSTED' : 'UPLINK ACTIVE'} // LATITUDE: {locationInfo?.coordinates.lat.toFixed(2) || '0.00'} // LONGITUDE: {locationInfo?.coordinates.lng.toFixed(2) || '0.00'} //
           </span>
         </div>
       </footer>

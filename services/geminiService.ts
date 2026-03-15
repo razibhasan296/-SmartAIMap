@@ -113,7 +113,7 @@ export const generate360View = async (prompt: string): Promise<string> => {
   let finalPrompt = prompt;
   // Specialized epic logic for the WORLD MAPS Hub - Updated with white circular disc and circuit aesthetic
   if (prompt.toLowerCase().includes("world map") || prompt.toLowerCase().includes("nexus prime") || prompt.toLowerCase().includes("initial_location")) {
-    finalPrompt = `A hyper-realistic 360-degree equirectangular panorama of the #SMARTAIMAP Core Command Deck. In the center, a massive white glowing circular data-platform pulses with life. Above it, a colossal spherical hologram of Earth is rendered with glowing cyan circuit ley lines and pulsing emerald data-nodes. Technical technical telemetry displays floating in mid-air: '#RAI', '#SMARTAIBOTBODYLOCK', '#ENVIRONMENT'. Massive curved obsidian floor reflects the glowing circuitry. Outside massive windows, orbital sunrise flares across the curve of Earth. Immersive, sci-fi, cinematic lighting, 8k resolution.`;
+    finalPrompt = `A hyper-realistic 360-degree equirectangular panorama of the #SMARTAIMAP Core Command Deck. In the center, a massive white glowing circular data-platform pulses with life. Above it, a colossal spherical hologram of Earth is rendered with glowing cyan circuit ley lines and pulsing emerald data-nodes. Technical technical telemetry displays floating in mid-air: '#RAI', '#SmartAIBotBodyLock', '#ENVIRONMENT'. Massive curved obsidian floor reflects the glowing circuitry. Outside massive windows, orbital sunrise flares across the curve of Earth. Immersive, sci-fi, cinematic lighting, 8k resolution.`;
   }
 
   return withRetry(async () => {
