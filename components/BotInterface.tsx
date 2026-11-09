@@ -49,7 +49,7 @@ const BotInterface: React.FC<BotInterfaceProps> = ({ status, onStatusChange }) =
       
       <div className="flex justify-between items-start mb-6 relative z-10">
         <div className="flex-1">
-          <h3 className="text-[10px] font-orbitron text-slate-500 uppercase tracking-[0.3em] mb-1">Body Lock Interface</h3>
+          <h3 className="text-[10px] font-orbitron text-slate-500 uppercase tracking-[0.3em] mb-1">SmartAIBotBodyLock Interface</h3>
           <div className={`text-lg font-bold font-orbitron tracking-[0.15em] flex items-center gap-3 ${status === BotLockStatus.OVERRIDE ? 'animate-pulse' : ''}`}>
             {status === BotLockStatus.OVERRIDE && <span className="text-red-500 drop-shadow-[0_0_8px_#ef4444]">⚠</span>}
             {status}
